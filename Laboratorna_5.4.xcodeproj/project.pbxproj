@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18919D2C27293DCC00742ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18919D2B27293DCC00742ACC /* AppDelegate.m */; };
+		18919D2F27293DCC00742ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18919D2E27293DCC00742ACC /* ViewController.m */; };
+		18919D3227293DCC00742ACC /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 18919D3127293DCC00742ACC /* Document.m */; };
+		18919D3427293DD100742ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18919D3327293DD100742ACC /* Assets.xcassets */; };
+		18919D3727293DD100742ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18919D3527293DD100742ACC /* Main.storyboard */; };
+		18919D3A27293DD100742ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18919D3927293DD100742ACC /* main.m */; };
+		18919D4527293DD100742ACC /* Laboratorna_5_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18919D4427293DD100742ACC /* Laboratorna_5_4Tests.m */; };
+		18919D5027293DD200742ACC /* Laboratorna_5_4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18919D4F27293DD200742ACC /* Laboratorna_5_4UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18919D4127293DD100742ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18919D1F27293DCC00742ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18919D2627293DCC00742ACC;
+			remoteInfo = Laboratorna_5.4;
+		};
+		18919D4C27293DD200742ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18919D1F27293DCC00742ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18919D2627293DCC00742ACC;
+			remoteInfo = Laboratorna_5.4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18919D2727293DCC00742ACC /* Laboratorna_5.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laboratorna_5.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18919D2A27293DCC00742ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18919D2B27293DCC00742ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18919D2D27293DCC00742ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18919D2E27293DCC00742ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18919D3027293DCC00742ACC /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		18919D3127293DCC00742ACC /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		18919D3327293DD100742ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18919D3627293DD100742ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18919D3827293DD100742ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18919D3927293DD100742ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18919D3B27293DD100742ACC /* Laboratorna_5_4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laboratorna_5_4.entitlements; sourceTree = "<group>"; };
+		18919D4027293DD100742ACC /* Laboratorna_5.4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_5.4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18919D4427293DD100742ACC /* Laboratorna_5_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_5_4Tests.m; sourceTree = "<group>"; };
+		18919D4627293DD100742ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18919D4B27293DD200742ACC /* Laboratorna_5.4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_5.4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18919D4F27293DD200742ACC /* Laboratorna_5_4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_5_4UITests.m; sourceTree = "<group>"; };
+		18919D5127293DD200742ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18919D2427293DCC00742ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18919D3D27293DD100742ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18919D4827293DD200742ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18919D1E27293DCC00742ACC = {
+			isa = PBXGroup;
+			children = (
+				18919D2927293DCC00742ACC /* Laboratorna_5.4 */,
+				18919D4327293DD100742ACC /* Laboratorna_5.4Tests */,
+				18919D4E27293DD200742ACC /* Laboratorna_5.4UITests */,
+				18919D2827293DCC00742ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18919D2827293DCC00742ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18919D2727293DCC00742ACC /* Laboratorna_5.4.app */,
+				18919D4027293DD100742ACC /* Laboratorna_5.4Tests.xctest */,
+				18919D4B27293DD200742ACC /* Laboratorna_5.4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18919D2927293DCC00742ACC /* Laboratorna_5.4 */ = {
+			isa = PBXGroup;
+			children = (
+				18919D2A27293DCC00742ACC /* AppDelegate.h */,
+				18919D2B27293DCC00742ACC /* AppDelegate.m */,
+				18919D2D27293DCC00742ACC /* ViewController.h */,
+				18919D2E27293DCC00742ACC /* ViewController.m */,
+				18919D3027293DCC00742ACC /* Document.h */,
+				18919D3127293DCC00742ACC /* Document.m */,
+				18919D3327293DD100742ACC /* Assets.xcassets */,
+				18919D3527293DD100742ACC /* Main.storyboard */,
+				18919D3827293DD100742ACC /* Info.plist */,
+				18919D3927293DD100742ACC /* main.m */,
+				18919D3B27293DD100742ACC /* Laboratorna_5_4.entitlements */,
+			);
+			path = Laboratorna_5.4;
+			sourceTree = "<group>";
+		};
+		18919D4327293DD100742ACC /* Laboratorna_5.4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18919D4427293DD100742ACC /* Laboratorna_5_4Tests.m */,
+				18919D4627293DD100742ACC /* Info.plist */,
+			);
+			path = Laboratorna_5.4Tests;
+			sourceTree = "<group>";
+		};
+		18919D4E27293DD200742ACC /* Laboratorna_5.4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18919D4F27293DD200742ACC /* Laboratorna_5_4UITests.m */,
+				18919D5127293DD200742ACC /* Info.plist */,
+			);
+			path = Laboratorna_5.4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18919D2627293DCC00742ACC /* Laboratorna_5.4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18919D5427293DD200742ACC /* Build configuration list for PBXNativeTarget "Laboratorna_5.4" */;
+			buildPhases = (
+				18919D2327293DCC00742ACC /* Sources */,
+				18919D2427293DCC00742ACC /* Frameworks */,
+				18919D2527293DCC00742ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laboratorna_5.4;
+			productName = Laboratorna_5.4;
+			productReference = 18919D2727293DCC00742ACC /* Laboratorna_5.4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18919D3F27293DD100742ACC /* Laboratorna_5.4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18919D5727293DD200742ACC /* Build configuration list for PBXNativeTarget "Laboratorna_5.4Tests" */;
+			buildPhases = (
+				18919D3C27293DD100742ACC /* Sources */,
+				18919D3D27293DD100742ACC /* Frameworks */,
+				18919D3E27293DD100742ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18919D4227293DD100742ACC /* PBXTargetDependency */,
+			);
+			name = Laboratorna_5.4Tests;
+			productName = Laboratorna_5.4Tests;
+			productReference = 18919D4027293DD100742ACC /* Laboratorna_5.4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18919D4A27293DD200742ACC /* Laboratorna_5.4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18919D5A27293DD200742ACC /* Build configuration list for PBXNativeTarget "Laboratorna_5.4UITests" */;
+			buildPhases = (
+				18919D4727293DD200742ACC /* Sources */,
+				18919D4827293DD200742ACC /* Frameworks */,
+				18919D4927293DD200742ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18919D4D27293DD200742ACC /* PBXTargetDependency */,
+			);
+			name = Laboratorna_5.4UITests;
+			productName = Laboratorna_5.4UITests;
+			productReference = 18919D4B27293DD200742ACC /* Laboratorna_5.4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18919D1F27293DCC00742ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18919D2627293DCC00742ACC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					18919D3F27293DD100742ACC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18919D2627293DCC00742ACC;
+					};
+					18919D4A27293DD200742ACC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18919D2627293DCC00742ACC;
+					};
+				};
+			};
+			buildConfigurationList = 18919D2227293DCC00742ACC /* Build configuration list for PBXProject "Laboratorna_5.4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18919D1E27293DCC00742ACC;
+			productRefGroup = 18919D2827293DCC00742ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18919D2627293DCC00742ACC /* Laboratorna_5.4 */,
+				18919D3F27293DD100742ACC /* Laboratorna_5.4Tests */,
+				18919D4A27293DD200742ACC /* Laboratorna_5.4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18919D2527293DCC00742ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18919D3427293DD100742ACC /* Assets.xcassets in Resources */,
+				18919D3727293DD100742ACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18919D3E27293DD100742ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18919D4927293DD200742ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18919D2327293DCC00742ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18919D3227293DCC00742ACC /* Document.m in Sources */,
+				18919D2F27293DCC00742ACC /* ViewController.m in Sources */,
+				18919D3A27293DD100742ACC /* main.m in Sources */,
+				18919D2C27293DCC00742ACC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18919D3C27293DD100742ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18919D4527293DD100742ACC /* Laboratorna_5_4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18919D4727293DD200742ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18919D5027293DD200742ACC /* Laboratorna_5_4UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18919D4227293DD100742ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18919D2627293DCC00742ACC /* Laboratorna_5.4 */;
+			targetProxy = 18919D4127293DD100742ACC /* PBXContainerItemProxy */;
+		};
+		18919D4D27293DD200742ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18919D2627293DCC00742ACC /* Laboratorna_5.4 */;
+			targetProxy = 18919D4C27293DD200742ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18919D3527293DD100742ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18919D3627293DD100742ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18919D5227293DD200742ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18919D5327293DD200742ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18919D5527293DD200742ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Laboratorna_5.4/Laboratorna_5_4.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Laboratorna_5.4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Laboratorna-5-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18919D5627293DD200742ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Laboratorna_5.4/Laboratorna_5_4.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Laboratorna_5.4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Laboratorna-5-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18919D5827293DD200742ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Laboratorna_5.4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Laboratorna-5-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laboratorna_5.4.app/Contents/MacOS/Laboratorna_5.4";
+			};
+			name = Debug;
+		};
+		18919D5927293DD200742ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Laboratorna_5.4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Laboratorna-5-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Laboratorna_5.4.app/Contents/MacOS/Laboratorna_5.4";
+			};
+			name = Release;
+		};
+		18919D5B27293DD200742ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Laboratorna_5.4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Laboratorna-5-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Laboratorna_5.4;
+			};
+			name = Debug;
+		};
+		18919D5C27293DD200742ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Laboratorna_5.4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Laboratorna-5-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Laboratorna_5.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18919D2227293DCC00742ACC /* Build configuration list for PBXProject "Laboratorna_5.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18919D5227293DD200742ACC /* Debug */,
+				18919D5327293DD200742ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18919D5427293DD200742ACC /* Build configuration list for PBXNativeTarget "Laboratorna_5.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18919D5527293DD200742ACC /* Debug */,
+				18919D5627293DD200742ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18919D5727293DD200742ACC /* Build configuration list for PBXNativeTarget "Laboratorna_5.4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18919D5827293DD200742ACC /* Debug */,
+				18919D5927293DD200742ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18919D5A27293DD200742ACC /* Build configuration list for PBXNativeTarget "Laboratorna_5.4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18919D5B27293DD200742ACC /* Debug */,
+				18919D5C27293DD200742ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18919D1F27293DCC00742ACC /* Project object */;
+}
